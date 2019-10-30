@@ -1,0 +1,55 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+@font-face 
+    font-family: "miso"
+    src: url("../fonts/Miso.ttf")
+    src: url("../fonts/Miso.oet")
+    src: url("../fonts/Miso.woff")
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap')
+
+body
+    background: #fdde7e
+.container
+    max-width: 1200px
+    width: 100%
+    height: 100vh
+.cards
+    margin: 0 auto
+    display: flex
+    justify-content: space-around
+    align-items: center
+    font-family: "miso", sans-serif
+    text-align: center
+    &__bronze, &__gold, &__silver
+        width: 30%
+        height: 60vh
+        background: #ffffff
+        &--price
+            color: #02995b
+            font-size: 44px
+            margin: 20px 0
+        &--img
+            margin: 30px 0
+        &--name
+            margin: 20px 0
+            font-weight: 300
+            color: #333333
+            font-size: 38px
+            font-family: "miso", sans-serif
+        &--text
+            margin: 10px 0
+            font-family: "lato", sans-serif
+            font-weight: 300
+            span
+                display: block
+    &__gold
+        height: 70vh
+        padding-top: 32px
+        &--price
+            position: relative
+            top: -15px
+            
+     
+
